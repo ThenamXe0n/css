@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#internal {
+  background-color: aqua;
+  background-color: rgb(38, 255, 0);
+}
+.positive {
+  box-shadow: 2px 2px 5px red;
+  background-color: rgb(11, 234, 15);
+  color: white;
+}
+.negative {
+  background-color: rgb(128, 0, 0);
+  color: white;
+}
+
+/* --------------------basic style properties------------------ */
+/* ------css box model-------- */
+
+/* //dimentions */
+
+div{
+  border-width: 2px;
+  border-style:dotted;
+  border-color: red;
+  border:10px solid red;
+  min-height: 100px;
+  overflow-y: scroll;
+  margin: 5px 0px 0px 10px;
+  /* border-radius: 200px 20px 0px 50px; */
+  border-top-right-radius: 45px;
+  
+}
+
+/* //font-styling or text  */
