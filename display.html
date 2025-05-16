@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+     #container{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 500px;
+        height: 500px;
+        background-color: rgba(255, 212, 132, 0.383);
+     }
+     .item{
+        height: 50px;
+        width: 50px;
+        /* margin: 5px; */
+        background-color: rgb(73, 238, 144);
+     }
+     body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>CSS FLEX BOX</h1>
+    <ul>
+      <li>to display the content in a specific way</li>
+      <li>
+        used majorly for alignment & positioning of contents and items of a
+        container
+      </li>
+      <li>note: flex is only applied on container to align its items</li>
+    </ul>
+    <div id="container">
+      <div class="item"> item 1</div>
+      <div class="item"> item 2</div>
+      <div class="item"> item 3</div>
+      <div class="item"> item 4</div>
+      <div class="item"> item 5</div>
+      <div class="item"> item 6</div>
+      <div class="item"> item 7</div>
+      <div class="item"> item 8</div>
+      <div class="item"> item 9</div>
+      <div class="item"> item 10</div>
+      <div class="item"> item 10</div>
+      <div class="item"> item 10</div>
+      <div class="item"> item 10</div>
+    </div>
+  </body>
 </html>
