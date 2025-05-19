@@ -1,0 +1,26 @@
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#doremon {
+  position: absolute;
+  left: 0;
+  animation-name: animatemove;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+  animation-delay: 5s;
+}
+
+@keyframes animatemove {
+  0% {
+background-image: url("img1");
+  }
+  8.3%{
+    background-image: url("img2");
+  }
+  16.6{
+    background-image: url("img3");
+  }
+
+}

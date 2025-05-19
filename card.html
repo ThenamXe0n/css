@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <title>Z index</title>
+    <style>
+      section {
+        height: 100vh;
+        width: 100vw;
+      }
+      .card {
+        border: 2px solid black;
+        width: 150px;
+        border-radius: 15px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .card1 {
+        background-color: rgb(255, 128, 0);
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-29%, -60%) rotate(20deg);
+      }
+      .card2 {
+        background-color: rgb(18, 36, 237);
+        transform: translate(-13%, -59%) rotate(40deg);
+      }
+
+      .card3 {
+        background-color: rgb(4, 175, 7);
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card card1"><h1 style="width: 100%;">khsdkhfjkshdfhkjdfhkjsdhkjfshkjshfd</h1></div>
+      <div class="card card2"></div>
+      <div class="card card3"> heloow</div>
+    </section>
+  </body>
+</html>
