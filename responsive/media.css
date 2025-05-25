@@ -1,0 +1,67 @@
+:root {
+  --primaryColor: red;
+  --textColor: white;
+  --elementColor: green;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  background: rebeccapurple;
+}
+
+body {
+  background-color: var(--primaryColor);
+}
+
+div {
+  background-color: var(--primaryColor);
+}
+
+div h1 {
+  color: var(--textColor);
+}
+div p {
+  color: var(--textColor);
+}
+h2 {
+  color: var(--textColor);
+}
+
+button{
+    background-color: var(--elementColor);
+    border:none;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: var(--textColor);
+}
+
+/* =============for mobile and small phone , large phones========== */
+@media only screen and (max-width: 600px) {
+  section {
+    background: blue;
+  }
+}
+
+/* ==================tablet screen============ */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  section {
+    background: rgb(234, 255, 0);
+  }
+}
+
+/* ==============laptop screen============== */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  section {
+    background: rgb(0, 255, 51);
+    height: 50vh;
+  }
+}
+
+/* ===============for extra large screen ============== */
+@media only screen and (min-width: 1201px) and (max-width: 2100px) {
+  section {
+    background: rgb(255, 0, 34);
+    height: 50vh;
+  }
+}

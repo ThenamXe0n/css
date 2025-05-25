@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div::after {
+        content: "";
+        height: 20px;
+        width: 250px;
+        background-color: green;
+      }
+      div::before {
+        content: "";
+      }
+      *::selection {
+        background-color: red;
+        color: white;
+      }
+      ul{
+        /* color: blue;
+        content: "➡️";
+        background-color: blue; */
+        list-style: decimal-leading-zero;
+        list-style-position: inside;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>khkjsh</li>
+      <li>khkjsh</li>
+    </ul>
+    <div>i am a div</div>
+  </body>
+</html>
